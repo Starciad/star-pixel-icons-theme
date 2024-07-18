@@ -7,6 +7,13 @@ Example=folder
 # ============================ #
 # KDE/Plasma Stuff
 
+DesktopSizes=8,16,32,64,96,96,129,160,192,224,256
+ToolbarSizes=8,16,32,64,96,96,129,160,192,224,256
+MainToolbarSizes=8,16,32,64,96,96,129,160,192,224,256
+SmallSizes=8,16,32,64,96,96,129,160,192,224,256
+PanelSizes=8,16,32,64,96,96,129,160,192,224,256
+DialogSizes=8,16,32,64,96,96,129,160,192,224,256
+
 DesktopDefault=32
 SmallDefault=32
 PanelDefault=32
@@ -14,13 +21,6 @@ DialogDefault=32
 MainToolbarDefault=32
 ToolbarDefault=32
 DisplayDepth=32
-
-DesktopSizes=8,16,32,64,96,96,129,160,192,224,256
-ToolbarSizes=8,16,32,64,96,96,129,160,192,224,256
-MainToolbarSizes=8,16,32,64,96,96,129,160,192,224,256
-SmallSizes=8,16,32,64,96,96,129,160,192,224,256
-PanelSizes=8,16,32,64,96,96,129,160,192,224,256
-DialogSizes=8,16,32,64,96,96,129,160,192,224,256
 
 LinkOverlay=link_overlay
 LockOverlay=lock_overlay
