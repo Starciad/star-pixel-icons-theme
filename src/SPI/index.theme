@@ -1,3 +1,5 @@
+# ============================ #
+# General
 [Icon Theme]
 Name=Star Pixel Icons
 Comment=Pixel Art icon pack for Linux.
@@ -6,7 +8,6 @@ Example=folder
 
 # ============================ #
 # KDE/Plasma Stuff
-
 DesktopSizes=8,16,32,64,96,96,129,160,192,224,256
 ToolbarSizes=8,16,32,64,96,96,129,160,192,224,256
 MainToolbarSizes=8,16,32,64,96,96,129,160,192,224,256
@@ -30,13 +31,11 @@ FollowsColorScheme=true
 KDE-Extensions=.png
 
 # ============================ #
-
 # Directory list
 Directories=places/8,places/16,places/32,places/64,places/96,places/128,places/120,places/192,places/224,places/256
 
 # ============================ #
 # SETTINGS
-
 # places
 [places/8]
 Size=8
