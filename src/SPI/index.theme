@@ -15,9 +15,9 @@ SmallSizes=8,16,32,64,96,128,160,192,224,256
 PanelSizes=8,16,32,64,96,128,160,192,224,256
 DialogSizes=8,16,32,64,96,128,160,192,224,256
 
-DesktopDefault=32
-SmallDefault=32
-PanelDefault=32
+DesktopDefault=64
+SmallDefault=16
+PanelDefault=64
 DialogDefault=32
 MainToolbarDefault=32
 ToolbarDefault=32
