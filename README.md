@@ -19,12 +19,16 @@ Currently, the following variants of the package are available:
 
 - SPI.
 
-## Information
+## Features
 
 - Pixel art style
 - Vibrant colors
 - Multiple icon sizes
 - Pixel perfect
+
+## Contribution
+
+If you would like to contribute to the project, see the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more details.
 
 ## License
 
