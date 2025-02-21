@@ -33,11 +33,10 @@ Thank you for your interest in contributing to the **Star Pixel Icons Theme (SPI
    Once your 32x32 pixel art icon is complete, run the `resize_image` script (available in both Bash and PowerShell) to generate the required sizes:
 
    ```sh
-   ./scripts/bash/resize_image.sh icon.png   # For Linux/macOS
-   ./scripts/powershell/resize_image.ps1 icon.png  # For Windows (PowerShell)
+   ./scripts/bash/tools/resize_image.sh icon.png   # For Linux/macOS
+   ./scripts/powershell/tools/resize_image.ps1 icon.png  # For Windows (PowerShell)
    ```
 
-   > [!NOTE]  
    > The script makes use of the FFMPEG library. Remember to install it in your environment.
 
 6. **Organize the Files**
