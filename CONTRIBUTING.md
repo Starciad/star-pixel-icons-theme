@@ -37,7 +37,7 @@ Thank you for your interest in contributing to the **Star Pixel Icons Theme (SPI
    ./scripts/powershell/resize_image.ps1 icon.png  # For Windows (PowerShell)
    ```
 
-   > [!NOTE]
+   > [!NOTE]  
    > The script makes use of the FFMPEG library. Remember to install it in your environment.
 
 6. **Organize the Files**
