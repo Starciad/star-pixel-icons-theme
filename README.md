@@ -26,6 +26,29 @@ Currently, the following variants of the package are available:
 - Multiple icon sizes
 - Pixel perfect
 
+## Installation
+
+You can manualy install the theme by cloning this repository.
+
+1. Clone this repository to your machine
+
+```sh
+git clone --depth=1 https://github.com/Starciad/star-pixel-icons-theme.git
+```
+
+2. Access the new `star-pixel-icons-theme` folder and copy icons to the system
+```sh
+cd star-pixel-icons-theme
+sudo cp -r src/SPI /usr/share/icons
+```
+
+To completely remove the icon pack from system just run:
+
+```sh
+sudo rm -rf /usr/share/icons/SPI
+```
+
+
 ## Contribution
 
 If you would like to contribute to the project, see the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more details.
