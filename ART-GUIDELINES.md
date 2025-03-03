@@ -36,19 +36,10 @@ If an icon does not fully meet these criteria, the maintainers may suggest adjus
 
 If you are unsure how to start designing your icon, here are some useful tips:
 
-- **Look for references**:  
-  Before creating your icon, examine how similar applications or objects have been represented in other icon sets.  
-  - Use the [Linux Icon Database](https://github.com/Starciad/linux-icon-database.git) to check existing icons.
-  - Explore other pixel art icon packs for inspiration.
-
-- **Maintain variety while following the theme**:  
-  The icon should be unique but should not look out of place within the set. Try to observe the style of other icons in the SPI Theme before submitting yours.
-
-- **Icons should not be direct copies**:  
-  Instead of making an exact pixel-by-pixel copy of an existing logo, try to **adapt** it creatively into a more charming and visually appealing form.
-
-- **Use negative space wisely**:  
-  In a 32x32 canvas, every pixel matters. Make sure the design does not feel too crowded or too empty.
+- Before creating your icon, examine how similar applications or objects have been represented in other icon sets. Explore other pixel art icon packs for inspiration.
+- The icon should be unique but should not look out of place within the set. Try to observe the style of other icons in the SPI Theme before submitting yours.
+- Instead of making an exact pixel-by-pixel copy of an existing logo, try to **adapt** it creatively into a more charming and visually appealing form.
+- In a 32x32 canvas, every pixel matters. Make sure the design does not feel too crowded or too empty.
 
 ## 🎨 Artistic Techniques for Improvement
 
