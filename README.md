@@ -4,9 +4,6 @@
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-> [!NOTE]  
-> This is still a project in development; this file will eventually be updated with more details.
-
 ## Icons
 
 ![preview]
@@ -28,30 +25,39 @@ Currently, the following variants of the package are available:
 
 ## Installation
 
-You can manualy install the theme by cloning this repository.
+If you want to install the icon pack on your system, a few steps will need to be taken. Currently, you can install the theme manually by cloning this repository on your Linux environment.
 
-1. Clone this repository to your machine
+### Step by Step
+
+1. Clone this repository to your machine using the command below in your bash terminal:
+
+    ```bash
+    git clone "https://github.com/Starciad/star-pixel-icons-theme.git" "SPI-Theme" --depth=1;
+    ```
+
+2. Now, access the newly created folder `SPI-Theme`. Once inside the directory, simply use the following command to install the icons locally:
+
+    ```sh
+    sudo cp -r src/SPI /usr/share/icons;
+    ```
+
+### Uninstalling
+
+To completely remove the icon pack from your system, simply run the following command:
 
 ```sh
-git clone --depth=1 https://github.com/Starciad/star-pixel-icons-theme.git
+sudo rm -rf /usr/share/icons/SPI;
 ```
 
-2. Access the new `star-pixel-icons-theme` folder and copy icons to the system
-```sh
-cd star-pixel-icons-theme
-sudo cp -r src/SPI /usr/share/icons
-```
-
-To completely remove the icon pack from system just run:
-
-```sh
-sudo rm -rf /usr/share/icons/SPI
-```
-
+It will remove all the contents present in the SPI folder, thus removing the icon theme from your system.
 
 ## Contribution
 
 If you would like to contribute to the project, see the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more details.
+
+## Credits
+
+See the developers and contributors who help the project evolve in the [CREDITS.md](./CREDITS.md) file.
 
 ## License
 
