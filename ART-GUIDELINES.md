@@ -17,3 +17,47 @@ To maintain consistency across the theme, please adhere to the following pixel a
 - **File Placement**:
   - Place your icon in the appropriate **subdirectory** under `src/` (e.g., `src/SPI/apps/`, `src/SPI/emblems/`).
   - Inside the category folder, use the **numerical size folders** (e.g., `src/SPI/apps/32x32/` for a 32x32 icon).
+
+## ✅ Icon Evaluation Criteria
+
+All submitted icons will be reviewed based on the following criteria to ensure consistency with the theme:
+
+| **Criteria**          | **Description** |
+|----------------------|---------------|
+| **Composition** | The icon should have a clear and recognizable silhouette, ensuring it is visually distinct at small sizes. |
+| **Originality** | The icon should not be a direct copy of an existing design but an adaptation that fits the theme's style. |
+| **Fidelity** | While not a direct replica, the icon should still resemble its intended application or object enough to be identifiable. |
+| **Consistency** | The design should follow the existing art guidelines, including the use of the **AAP-64** color palette and the 32x32 pixel size. |
+| **Aesthetic Appeal** | The icon should look polished, visually balanced, and not overly cluttered for a clean and appealing appearance. |
+
+If an icon does not fully meet these criteria, the maintainers may suggest adjustments, request changes, or, in some cases, modify the icon after merging.
+
+## 🎨 Tips for Creating Icons
+
+If you are unsure how to start designing your icon, here are some useful tips:
+
+- Before creating your icon, examine how similar applications or objects have been represented in other icon sets. Explore other pixel art icon packs for inspiration.
+- The icon should be unique but should not look out of place within the set. Try to observe the style of other icons in the SPI Theme before submitting yours.
+- Instead of making an exact pixel-by-pixel copy of an existing logo, try to **adapt** it creatively into a more charming and visually appealing form.
+- In a 32x32 canvas, every pixel matters. Make sure the design does not feel too crowded or too empty.
+
+## 🎨 Artistic Techniques for Improvement
+
+To enhance the quality of your pixel art, consider the following strategies:
+
+### 🟡 Shading & Lighting
+
+- Use **dithering** subtly to create smoother shading transitions.
+- Light sources should generally come from the **top-left**, as this maintains consistency with other icons.
+- Avoid excessive gradients — pixel art should remain clear and readable.
+
+### 🎨 Color Choice
+
+- Stick to the **AAP-64** palette whenever possible to ensure visual consistency.
+- Adjust **saturation and contrast** carefully to make details stand out without overpowering the composition.
+
+### ✏️ Pixel Techniques
+
+- Use **anti-aliasing sparingly** to smooth curves and edges without blurring.
+- Edges should be subtle – avoid thick edges unless necessary for visibility. They should also not be completely black, but rather soft edges that match the cores of neighboring pixels.
+- Remove stray pixels that might cause visual noise at small sizes.
