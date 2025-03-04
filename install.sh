@@ -3,14 +3,10 @@
 # Requires build.sh and a working Linux environment.
 # This script builds the icon pack and installs it locally.
 
-# Determine the repository root (assumed to be the directory containing this script)
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-REPO_ROOT="$(realpath "$SCRIPT_DIR/../..")"
-
 # Run the build script (assumes build.sh is located in the repository root or adjust the path accordingly)
-BUILD_SCRIPT="$REPO_ROOT/build.sh"
+BUILD_SCRIPT="./scripts/bash/build.sh"
 if [ ! -f "$BUILD_SCRIPT" ]; then
-    echo "Error: build.sh not found in $REPO_ROOT"
+    echo "Error: build.sh not found."
     exit 1
 fi
 
@@ -22,9 +18,9 @@ if [ $? -ne 0 ]; then
 fi
 
 # Define the source directory for the built icons
-ICON_SOURCE_DIR="$REPO_ROOT/src/SPI"
+ICON_SOURCE_DIR="./src/SPI"
 # Define the destination directory
-DEST_DIR="/usr/share/icons/SPI"
+DEST_DIR="~/usr/share/icons/SPI"
 
 echo "Installing icons from $ICON_SOURCE_DIR to $DEST_DIR..."
 
