@@ -13,8 +13,8 @@ if (-not (Test-Path $root_dir)) {
 
 Write-Host "Scanning icon directories in: $root_dir"
 
-# List of target sizes
-$sizes = @(8, 16, 64, 96, 128, 160, 192, 224, 256) # Excludes 32 since it's the base size
+# List of target sizes (excluding 32, which is the base size)
+$sizes = @(8, 16, 64, 96, 128, 160, 192, 224, 256)
 
 # Iterate through each category in the root directory
 $categories = Get-ChildItem -Path $root_dir -Directory

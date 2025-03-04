@@ -35,21 +35,24 @@ If you want to install the icon pack on your system, a few steps will need to be
     git clone "https://github.com/Starciad/star-pixel-icons-theme.git" "SPI-Theme" --depth=1;
     ```
 
-2. Now, access the newly created folder `SPI-Theme`. Once inside the directory, simply use the following command to install the icons locally:
+2. Now, access the newly created folder `SPI-Theme`. Once inside the directory, simply run the installation script:
 
     ```sh
-    sudo cp -r src/SPI /usr/share/icons;
+    sudo ./install.sh
     ```
 
-### Uninstalling
+> [!NOTE]  
+> The PowerShell version does not exist since this package is compatible only with Linux graphical environments.
 
-To completely remove the icon pack from your system, simply run the following command:
+## Uninstalling
+
+To completely remove the icon pack from your system, run the uninstallation script from the repository root:
 
 ```sh
-sudo rm -rf /usr/share/icons/SPI;
+sudo ./uninstall.sh
 ```
 
-It will remove all the contents present in the SPI folder, thus removing the icon theme from your system.
+The script will remove all the contents present in the SPI folder from your local icons directory.
 
 ## Contribution
 

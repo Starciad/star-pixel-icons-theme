@@ -4,46 +4,24 @@ Thank you for your interest in contributing to the **Star Pixel Icons Theme (SPI
 
 ## 🛠 How to Contribute
 
-1. **Fork the Repository**  
+1. Click the "Fork" button on the top right of the repository page to create a copy of the project under your account.  
 
-   Click the "Fork" button on the top right of the repository page to create a copy of the project under your account.  
-
-2. **Clone Your Fork**  
-
-   Clone the forked repository to your local machine using:  
+2. Clone the forked repository to your local machine using:  
 
    ```sh
-   git clone https://github.com/Starciad/star-pixel-icons-theme.git
+   git clone "https://github.com/Starciad/star-pixel-icons-theme.git" "SPI-Theme";
+   cd "SPI-Theme";
    ```  
 
-3. **Create a New Branch**  
-
-   Use a descriptive branch name, such as:  
+3. Use a descriptive branch name, such as:  
 
    ```sh
    git checkout -b add-new-icon
    ```  
 
-4. **Create the Pixel Art Icon**  
+4. Follow the [Art Guidelines](./ART-GUIDELINES.md) to ensure your icon matches the theme.  
 
-   Follow the [Art Guidelines](./ART-GUIDELINES.md) to ensure your icon matches the theme.  
-
-5. **Use the Image Resizer Script**  
-
-   Once your 32x32 pixel art icon is complete, run the `resize_image` script (available in both Bash and PowerShell) to generate the required sizes:  
-
-   ```sh
-   ./scripts/bash/tools/resize_image.sh icon.png   # For Linux/macOS
-   ./scripts/powershell/tools/resize_image.ps1 icon.png  # For Windows (PowerShell)
-   ```  
-
-   > The script makes use of the FFMPEG library. Remember to install it in your environment.  
-
-6. **Organize the Files**  
-
-   Place the generated files inside the appropriate subdirectory under `src/`, following the Linux icon organization structure.  
-
-7. **Commit and Push Changes**  
+5. Then, just create a commit and push your changes:  
 
    ```sh
    git add .
@@ -51,9 +29,7 @@ Thank you for your interest in contributing to the **Star Pixel Icons Theme (SPI
    git push origin add-new-icon
    ```  
 
-8. **Create a Pull Request**  
-
-   Go to the original repository, click on "Pull Requests," and submit your changes for review.  
+6. Go to the original repository, click on "Pull Requests," and submit your changes for review.  
 
 ## ✨ Modification of Contributions  
 
