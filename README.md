@@ -41,6 +41,9 @@ If you want to install the icon pack on your system, a few steps will need to be
     sudo ./install.sh
     ```
 
+> [!IMPORTANT]  
+> Remember that the script must have permission to run. If the files are not copied to the directory correctly (permission error occurred), you can try opening the icons directory as root and try to copy the `SPI/` directory there manually.
+
 ## Uninstalling
 
 To completely remove the icon pack from your system, run the uninstallation script from the repository root:
