@@ -3,7 +3,7 @@
 [Icon Theme]
 Name=Star Pixel Icons
 Comment=Pixel Art icon pack for Linux.
-Inherits=spi,hicolor
+Inherits=Adwaita,oxygen,gnome,hicolor,breeze
 Example=folder
 Hidden=false
 

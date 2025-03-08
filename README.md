@@ -41,9 +41,6 @@ If you want to install the icon pack on your system, a few steps will need to be
     sudo ./install.sh
     ```
 
-> [!NOTE]  
-> The PowerShell version does not exist since this package is compatible only with Linux graphical environments.
-
 ## Uninstalling
 
 To completely remove the icon pack from your system, run the uninstallation script from the repository root:

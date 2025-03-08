@@ -6,7 +6,7 @@
 # Get the directory where this script is located
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 # Define the root directory of icons relative to the script's location
-ROOT_DIR="$(realpath "$SCRIPT_DIR/../../src/SPI")"
+ROOT_DIR="$(realpath "$SCRIPT_DIR/../src/SPI")"
 
 # Check if the root directory exists
 if [ ! -d "$ROOT_DIR" ]; then
